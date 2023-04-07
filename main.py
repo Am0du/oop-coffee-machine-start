@@ -24,6 +24,7 @@ while machine_on:
         machine_on = False
 
     else:
+
         drink = menu.find_drink(user_request)
         sufficient = drink_maker.is_resource_sufficient(drink)
         if sufficient:
